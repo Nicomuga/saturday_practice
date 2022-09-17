@@ -10,8 +10,6 @@ print("Las longitudes entregadas hasta el momento son!")
 
 print(l1,l2,l3)
 
-a1 = [l1,l2,l3]
-
 
 if(l1 <= l2+l3):
     print("vamos bien, revisemos el siguiente")
@@ -27,3 +25,6 @@ if(l1 <= l2+l3):
         print('No es posible el triangulo', l2, 'No es menor que ', l1, "+", l3)
 else: 
     print('No es posible el triangulo.', l1, 'No es menor que ', l2, "+", l3 )
+
+
+
